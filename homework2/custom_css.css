@@ -1,0 +1,262 @@
+body {
+    font-family: 'Proxima Nova';
+
+}
+
+html {
+    font-size: 10px;
+
+
+}
+
+.button__download {
+    border-color: #6cc82f;
+    background-color: #ffffff;
+    font-size: 2.2rem;
+    color: #98d361;
+    font-family: 'Proxima Nova';
+    padding: 1rem 4rem;
+    width: 23rem;
+    height: 6rem;
+}
+
+.button__learnmore {
+    border-color: #fff;
+    background-color: #b9b9b9;
+    color: #fff;
+    font-size: 2.2rem;
+    font-family: 'Proxima Nova';
+    padding: 1rem 4rem;
+    width: 23rem;
+    height: 6rem;
+}
+
+.icons1 {
+    color: #98d361;
+    font-size: 3rem;
+    margin-right: 5rem;
+
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: solid 2px #98d361;
+
+
+}
+
+.carousel-indicators .active {
+    background-color: #98d361;
+}
+
+.carousel-indicators {
+    bottom: -5rem;
+}
+
+
+#logo {
+    padding-top: 23.7rem;
+
+
+}
+
+#value {
+    display: inline-block;
+    font-size: 5rem;
+    color: #b9b9b9;
+    margin: 0;
+    padding-left: 2.5rem;
+    vertical-align: middle;
+}
+
+#logo__bottom__text {
+    font-size: 3rem;
+    font-family: 'Proxima Nova';
+    line-height: 3.9rem;
+    color: #b9b9b9;
+    padding-top: 10.3rem;
+    padding-bottom: 4.6rem;
+
+}
+
+
+
+.p__white {
+    color: white;
+
+    font-size: 2rem;
+
+}
+
+.h3__white {
+    font-size: 2.8rem;
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 3.3rem;
+
+}
+
+.h2__white {
+    font-size: 3.6rem;
+    color: white;
+    margin-top: 9.2rem;
+    margin-bottom: 2.6rem;
+
+}
+
+
+
+.icons2 {
+    font-size: 7.5rem;
+    color: white;
+    margin-top: 9.5rem;
+}
+
+.h4__green {
+    color: #98d361;
+    font-size: 2rem;
+}
+
+.icons3 {
+    font-size: 4.5rem;
+    color: darkgrey;
+}
+
+.p__section3 {
+    font-size: 1.8rem;
+    padding-bottom: 5rem;
+    color: #686868;
+}
+
+#section3 {
+    background-color: #F8F8F9;
+
+}
+
+.h2__section3 {
+
+    color: #727272;
+    font-size: 3.6rem;
+    margin: 16rem 0rem 8.3rem 0rem;
+}
+
+.img_section3 {
+    margin-top: 10.8rem;
+}
+
+#kav {
+    font-family: Stencil, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 9.88rem;
+
+    color: #98d361;
+}
+
+#p__section4 {
+    font-size: 2.4rem;
+    color: #8C9494;
+    font-style: italic;
+}
+
+.section5 {
+
+    background-color: #F3F5F5;
+}
+
+#h4__section5 {
+    color: #8c9494;
+    font-size: 3rem;
+
+}
+
+#p_section5 {
+    color: #686868;
+    font-size: 2.2rem;
+
+}
+
+#button-addon2 {
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: #6cc82f;
+    color: white;
+    font-size: 2rem;
+
+}
+
+
+
+
+.input-group input {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #ffffff;
+    border: solid #e2e6e6 1px;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.icons5 {
+    color: #98d361;
+    font-size: 4.3rem;
+    margin-top: 6.9rem;
+    margin-bottom: 3.3rem;
+}
+
+.input-group {
+    margin-top: 5.8rem;
+    margin-bottom: 8.8rem;
+}
+
+.icons6 {
+    font-size: 6.6rem;
+    color: #a9afaf;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #a9afaf;
+
+}
+
+.footer .fa {
+    padding-left: 3.6rem;
+    padding-right: 3.6rem
+}
+
+.footer__text {
+    color: #a9afaf;
+    font-size: 1.7rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.comments h4 {
+    color: #6cc82f;
+
+}
+
+.comments p {
+    color: #8c9494;
+    margin: 0px;
+
+}
+
+.comments img {
+    border-radius: 50%;
+
+    border: 1px solid #98d361;
+    padding: 4px;
+}
