@@ -35,6 +35,7 @@ html {
     color: #98d361;
     font-size: 3rem;
     margin-right: 5rem;
+    padding-top: 5.2rem;
 
 }
 
@@ -101,7 +102,7 @@ html {
 .h2__white {
     font-size: 3.6rem;
     color: white;
-    margin-top: 9.2rem;
+    margin-top: 2.2rem;
     margin-bottom: 2.6rem;
 
 }
@@ -126,7 +127,6 @@ html {
 
 .p__section3 {
     font-size: 1.8rem;
-    padding-bottom: 5rem;
     color: #686868;
 }
 
@@ -139,7 +139,7 @@ html {
 
     color: #727272;
     font-size: 3.6rem;
-    margin: 16rem 0rem 8.3rem 0rem;
+    margin: 9rem 0rem 8.3rem 0rem;
 }
 
 .img_section3 {
@@ -159,7 +159,7 @@ html {
     font-style: italic;
 }
 
-.section5 {
+#section5 {
 
     background-color: #F3F5F5;
 }
@@ -171,15 +171,18 @@ html {
 }
 
 #p_section5 {
-    color: #686868;
+    color: #8c9494;
     font-size: 2.2rem;
 
 }
 
 #button-addon2 {
+    width: 16rem;
+    height: 6rem;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    background-color: #6cc82f;
+    border: solid 1px #98d361;
+    background-color: #98d361;
     color: white;
     font-size: 2rem;
 
@@ -189,11 +192,11 @@ html {
 
 
 .input-group input {
+    height: 6rem;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     background-color: #ffffff;
     border: solid #e2e6e6 1px;
-    color: white;
     font-size: 2rem;
 
 }
@@ -201,7 +204,6 @@ html {
 .icons5 {
     color: #98d361;
     font-size: 4.3rem;
-    margin-top: 6.9rem;
     margin-bottom: 3.3rem;
 }
 
@@ -211,9 +213,11 @@ html {
 }
 
 .icons6 {
-    font-size: 6.6rem;
+    font-size: 5.4rem;
     color: #a9afaf;
 }
+
+
 
 .footer a {
     text-decoration: none;
@@ -259,4 +263,24 @@ html {
 
     border: 1px solid #98d361;
     padding: 4px;
+}
+
+.p__svg {
+    padding-bottom: 5rem;
+}
+
+section {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.footer {
+    padding-bottom: 8rem;
+    padding-top: 6rem;
+}
+
+
+.form-control::placeholder {
+    padding-left: 3rem;
+    color: #dee0e0;
 }
