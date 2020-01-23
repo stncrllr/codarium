@@ -74,7 +74,7 @@ li:hover a {
     font-size: 2.5rem;
     width: 24.3rem;
     height: 5.1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin-top: 4.6rem;
 }
 
@@ -116,7 +116,6 @@ html {
 #section5 {
     background-color: #f4f4f4;
     padding-top: 3.6rem;
-    padding-bottom: 3.6rem;
 }
 
 #section3 {
@@ -176,7 +175,7 @@ a span {
 
 .button__details {
     background-color: #2190c1;
-    width: 55px;
+    width: auto;
     height: 25px;
     color: #fff;
     font-size: 1.17rem;
@@ -322,4 +321,8 @@ nav a {
 
 .wrapper a {
     text-decoration: none;
+}
+
+#section2 {
+    background-color: #f4f4f4;
 }
