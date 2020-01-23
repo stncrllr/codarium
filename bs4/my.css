@@ -1,0 +1,325 @@
+li:hover {
+
+    background-color: #12a3d6;
+    background-image: url(img/nav.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+li:hover a {
+    color: #c5f4ff;
+}
+
+
+#section1 {
+    background-image: url(img/town.png);
+    height: 490px;
+}
+
+#section3 {
+    background-color: #2e3e4f;
+}
+
+
+
+.camera {
+    background-color: #bebebe;
+    background-image: url(img/camera.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: white 10px solid;
+    height: 220px;
+    width: 285px;
+}
+
+.camera img {
+    display: block;
+    margin: 0 auto;
+}
+
+.eye {
+    border: 1px white solid;
+    border-radius: 5px;
+    width: 144px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+
+}
+
+.eye img {
+    padding: 8px
+}
+
+#section1 h2 {
+    color: #cccece;
+    font-size: 6rem;
+    padding-top: 10.9rem;
+}
+
+#section1 p {
+    color: #cccece;
+    font-size: 1.4rem;
+}
+
+#section1 input {
+    background-color: #f98561;
+    color: #ffebca;
+    font-size: 2.5rem;
+    width: 24.3rem;
+    height: 5.1rem;
+    border-radius: 1rem;
+    margin-top: 4.6rem;
+}
+
+html {
+    font-size: 10px;
+}
+
+.service {
+    color: #fff;
+    background-color: #2190c1;
+    font-size: 2.2rem;
+    width: 14.3rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-radius: 0.5rem;
+    margin-top: -1.75rem;
+}
+
+
+
+#section2 h2 {
+    color: #2e3e4f;
+    font-size: 1.7rem;
+    padding-top: 2.7rem;
+}
+
+#section2 p {
+    color: #2e3e4f;
+    font-size: 1.1rem
+}
+
+#section2 a {
+    color: #2190c1
+}
+
+
+
+#section4,
+#section5 {
+    background-color: #f4f4f4;
+    padding-top: 3.6rem;
+    padding-bottom: 3.6rem;
+}
+
+#section3 {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+a span {
+    color: white;
+}
+
+
+#section3 h2 {
+    font-size: 3rem;
+    color: #f98561;
+}
+
+#section3 h3 {
+    font-size: 1.7rem;
+    color: #f98561;
+    padding-top: 2rem;
+}
+
+#section3 p {
+    font-size: 1.1rem;
+    color: #a3afb2;
+}
+
+#section4 h2 {
+    color: #2190c1;
+    font-size: 4rem
+}
+
+#section4 h3 {
+    color: #2b99cc;
+    font-size: 1.7rem;
+}
+
+#section4 h2 + p {
+    color: #515862;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+#section4 h3 + p {
+    color: #515862;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+#section4 a {
+    color: #2190c1;
+    font-size: 1.4rem;
+    font-family: bree serif;
+    margin-bottom: 1rem;
+}
+
+.button__details {
+    background-color: #2190c1;
+    width: 55px;
+    height: 25px;
+    color: #fff;
+    font-size: 1.17rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 3px 2px 0px #025568;
+}
+
+.button__details:hover {
+    background-color: #12a3d6;
+    color: #fff;
+    box-shadow: 0px 3px 2px 0px #025568;
+}
+
+.button__details:focus {
+    background-color: #12a3d6;
+}
+
+.button__details:active {
+    background-color: #12a3d6;
+    color: #fff;
+    box-shadow: 0px -3px 2px 0px #025568;
+}
+
+#section5 h2 {
+    color: #2190c1;
+    font-size: 2.7rem;
+
+}
+
+#section5 p {
+    color: #515862;
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+#section5 h4 span {
+    font-weight: 800
+}
+
+#section5 h4 {
+    color: #f98561;
+}
+
+footer {
+    background-color: #2e3e4f;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+footer h3 {
+    font-size: 3rem;
+    color: #f98561;
+    line-height: 2.6rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+.bot__border {
+    padding-bottom: 1rem;
+}
+
+.bot__border::after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    /* This will center the border. */
+    width: 100%;
+    /* Change this to whatever width you want. */
+    margin-top: 10px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid grey;
+    /* This creates the border. Replace black with whatever color you want. */
+}
+
+footer p {
+    color: #a3afb2;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin: 0
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: #2190c1
+}
+
+div > label {
+    color: #2190c1;
+    font-size: 1.3rem;
+}
+
+#moreworks {
+    width: 90px;
+    height: 32px;
+}
+
+.nav {
+    height: 80px;
+}
+
+nav a {
+    font-size: 1.5rem;
+    color: #2e3e4f
+}
+
+.blog {
+    background-color: #f98561;
+    border-radius: 0.5rem;
+    width: 65px;
+    color: white;
+}
+
+.sec2div {
+    padding-bottom: 5rem;
+    padding-top: 3.4rem;
+}
+
+.eye-container {
+    background-color: #bebebe;
+    border: white 10px solid;
+    height: 220px;
+    width: 285px;
+    position: relative;
+}
+
+.navbar-brand {
+    font-size: 2rem
+}
+
+.nav {
+    padding: 0;
+}
+
+.wrapper {
+    width: 285px;
+}
+
+.wrapper a {
+    text-decoration: none;
+}

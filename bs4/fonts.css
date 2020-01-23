@@ -1,0 +1,32 @@
+#section1 h2,
+.service,
+#section4 h2,
+#section5 h2,
+footer h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+nav,
+#section1 p,
+#section3 p,
+#section4,
+#section5 h4,
+footer {
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+#section1 button {
+    font-family: 'Ubuntu Condensed',
+        sans-serif;
+}
+
+.navbar-brand,
+#section2,
+#section3,
+#section4 h3,
+#section5 p {
+    font-family: 'Bree Serif',
+        serif;
+}
