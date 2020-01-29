@@ -2,300 +2,303 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Bree+Serif|Ubuntu|Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="my.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Bree+Serif|Ubuntu|Ubuntu+Condensed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="my.css">
 
-    <title>Good design</title>
+	<title>Good design</title>
 </head>
 
 <body>
-    <nav class="container-xl" style="margin-bottom: -1px">
-        <div class="row align-items-center">
-            <div class="col-xl-3 offset-xl-1 col-md-3 col-6 order-1"><a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="">
-                    Your Logo
-                </a></div>
-            <div class="col-xl-6 col-md-7 col-12 order-3 order-md-2">
-                <ul class="nav d-flex align-items-stretch justify-content-center justify-content-md-around">
-                    <li class="nav-item d-flex">
-                        <a class="nav-link my-auto" href="#section1">Home</a>
-                    </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link my-auto" href="#section3">Portfolio</a>
-                    </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link my-auto" href="#section4">About</a>
-                    </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link my-auto" href="#footer">Contact</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center text-center">
-                        <a class="nav-link blog my-auto" href="#">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-2 col-md-2 col-6 order-2 order-md-3 d-flex justify-content-center">
-                <form class="form-inline my-2 my-lg-0">
-                    <a href="#">Search <img src="img/search_but.png" alt=""></a>
-                </form>
-            </div>
-        </div>
-    </nav>
+	<nav class="container-xl" style="margin-bottom: -1px">
+		<div class="row align-items-center">
+			<div class="col-xl-3 offset-xl-1 col-md-3 col-6"><a class="navbar-brand" href="#">
+					<img src="img/logo.png" alt="">
+					Your Logo
+				</a></div>
+			<div class="col-6 text-right d-md-none"><img onclick="toggle()" src="img/burger.svg" alt=""></div>
+			<div class="col-xl-6 col-md-7 d-none d-md-block" id="burger">
+				<ul class="nav d-flex flex-column flex-md-row align-items-stretch justify-content- justify-content-md-around" id="ul">
+					<li class="nav-item d-flex">
+						<a class="nav-link my-auto" href="#section1">Home</a>
+					</li>
+					<li class="nav-item d-flex">
+						<a class="nav-link my-auto" href="#section3">Portfolio</a>
+					</li>
+					<li class="nav-item d-flex">
+						<a class="nav-link my-auto" href="#section4">About</a>
+					</li>
+					<li class="nav-item d-flex">
+						<a class="nav-link my-auto" href="#footer">Contact</a>
+					</li>
+					<li class="nav-item d-flex align-items-center text-center">
+						<a class="nav-link blog my-auto" href="#">Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xl-2 col-md-2 col-6 d-flex justify-content-start justify-content-md-center">
+				<form class="d-none d-md-block my-2 my-lg-0" id="search">
+					<a href="#">Search <img src="img/search_but.png" alt=""></a>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<section id="section1">
+		<div class="container-xl">
+			<div class="row justify-content-center">
+				<div class="col-xl-7 col-12 col-md-10 text-center">
+					<h2 class="text-uppercase">good design is good business</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor veritatis dolorem magnam nihil, qui reprehenderit minima, cumque. Eum tempora libero ipsum molestiae itaque omnis modi.</p>
+					<a href="#section2"><input type="submit" value="Learn More" class="text-uppercase btn"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="section2">
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="service mx-auto">
+						<span>our service</span>
+					</div>
+				</div>
+			</div>
+			<div class="row sec2div justify-content-center">
+				<div class="col-xl-10 col-12">
+					<div class="row justify-content-between">
+						<div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
+							<img src="img/webdesign.png" alt="">
+							<h2>Web Design</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui neque, facilis repudiandae dolore, aliquid culpa consequatur fuga reprehenderit aut autem.<a href="">Details...</a></p>
+						</div>
+						<div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
+							<img src="img/search.png" alt="">
+							<h2>Search Optimization</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptatum cupiditate hic ab reiciendis iusto at, odio alias illo possimus.<a href="">Details...</a></p>
+						</div>
+						<div class="col-xl-3 col-md-3 px-xl-5  col-6 text-center">
+							<img src="img/shop.png" alt="">
+							<h2>Online Shop</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore autem id .<a href="">Details...</a></p>
+						</div>
+						<div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
+							<img src="img/social.png" alt="">
+							<h2>Social Media</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi consequatur placeat minus doloribus modi molestias eligendi! Voluptas esse autem, laboriosam.<a href="">Details...</a></p>
+						</div>
+					</div>
+				</div>
 
-    <section id="section1">
-        <div class="container-xl">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-12 col-md-10 text-center">
-                    <h2 class="text-uppercase">good design is good business</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor veritatis dolorem magnam nihil, qui reprehenderit minima, cumque. Eum tempora libero ipsum molestiae itaque omnis modi.</p>
-                    <a href="#section2"><input type="submit" value="Learn More" class="text-uppercase btn"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="section2">
-        <div class="container-xl">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="service mx-auto">
-                        <span>our service</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row sec2div justify-content-center">
-                <div class="col-xl-10 col-12">
-                    <div class="row justify-content-between">
-                        <div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
-                            <img src="img/webdesign.png" alt="">
-                            <h2>Web Design</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui neque, facilis repudiandae dolore, aliquid culpa consequatur fuga reprehenderit aut autem.<a href="">Details...</a></p>
-                        </div>
-                        <div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
-                            <img src="img/search.png" alt="">
-                            <h2>Search Optimization</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptatum cupiditate hic ab reiciendis iusto at, odio alias illo possimus.<a href="">Details...</a></p>
-                        </div>
-                        <div class="col-xl-3 col-md-3 px-xl-5  col-6 text-center">
-                            <img src="img/shop.png" alt="">
-                            <h2>Online Shop</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore autem id .<a href="">Details...</a></p>
-                        </div>
-                        <div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
-                            <img src="img/social.png" alt="">
-                            <h2>Social Media</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi consequatur placeat minus doloribus modi molestias eligendi! Voluptas esse autem, laboriosam.<a href="">Details...</a></p>
-                        </div>
-                    </div>
-                </div>
+			</div>
+		</div>
+	</section>
+	<section id="section3">
+		<div class="container-xl">
+			<div class="row justify-content-center">
+				<div class="col-xl-10 col-12">
+					<div class="row">
+						<div class="col-xl-12 d-flex text-wrap">
+							<h2 class="text-capitalize d-inline">Our portfolio awesome</h2>
+							<button id="moreworks" class="button__details btn text-capitalize ml-auto my-3">more works</button>
+						</div>
+					</div>
+				</div>
 
-            </div>
-        </div>
-    </section>
-    <section id="section3">
-        <div class="container-xl">
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-12">
-                    <div class="row">
-                        <div class="col-xl-12 d-flex text-wrap">
-                            <h2 class="text-capitalize d-inline">Our portfolio awesome</h2>
-                            <button id="moreworks" class="button__details btn text-capitalize ml-auto my-3">more works</button>
-                        </div>
-                    </div>
-                </div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-xl-10 col-12">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="wrapper mr-lg-auto mx-auto mx-lg-0">
+								<div class="camera text-center"></div>
+								<h3>Lorem ipsum dolor.</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est cum nulla fugit optio saepe, ipsam tempora fugiat dicta sed accusamus.</p>
+							</div>
 
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-12">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="wrapper mr-lg-auto mx-auto mx-lg-0">
-                                <div class="camera text-center"></div>
-                                <h3>Lorem ipsum dolor.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est cum nulla fugit optio saepe, ipsam tempora fugiat dicta sed accusamus.</p>
-                            </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12">
+							<div class="wrapper mx-auto">
+								<div class="camera text-center"></div>
+								<h3>Lorem ipsum dolor sit.</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis fugit aut qui eius cupiditate quod optio aperiam doloremque consequuntur!</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-12">
+							<div class="wrapper  ml-lg-auto mx-auto mx-lg-0">
+								<div class="eye-container text-center">
+									<div class="eye"><a href=""><img src="img/eye.png" alt="details"><span>Details</span></a></div>
+								</div>
+								<h3>Lorem ipsum.</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam omnis voluptatem ea vero nostrum possimus sunt impedit laborum in.</p>
+							</div>
 
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <div class="wrapper mx-auto">
-                                <div class="camera text-center"></div>
-                                <h3>Lorem ipsum dolor sit.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis fugit aut qui eius cupiditate quod optio aperiam doloremque consequuntur!</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="wrapper  ml-lg-auto mx-auto mx-lg-0">
-                                <div class="eye-container text-center">
-                                    <div class="eye"><a href=""><img src="img/eye.png" alt="details"><span>Details</span></a></div>
-                                </div>
-                                <h3>Lorem ipsum.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam omnis voluptatem ea vero nostrum possimus sunt impedit laborum in.</p>
-                            </div>
+						</div>
+					</div>
+				</div>
 
-                        </div>
-                    </div>
-                </div>
+			</div>
+		</div>
+	</section>
+	<section id="section4">
+		<div class="container-xl">
+			<div class="row justify-content-center">
+				<div class="col-xl-8 text-center">
+					<h2 class="text-uppercase">what we offer</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, doloribus, aliquid itaque sequi error quia consequatur voluptatibus soluta accusantium voluptate modi nihil vitae sint numquam! Dolor a, natus accusamus vero harum corporis quidem, quis fugiat.</p>
+				</div>
+			</div>
+			<div class="row justify-content-around">
+				<div class="col-10">
+					<div class="row">
+						<div class="col-xl-3 col-6  mb-md-4 pb-4 pb-md-0">
+							<h3 class="text-capitalize">Web Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor culpa, illo explicabo iusto quis necessitatibus quod sint modi quas dicta, nesciunt veritatis!</p>
+							<a href=""><button type="button" class="btn d-flex ml-auto button__details">Details</button></a>
+						</div>
+						<div class="col-xl-3 col-6 mb-md-4 pb-4 pb-md-0">
+							<h3 class="text-capitalize">Search Optimization</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda aspernatur tempore eaque laborum, dicta repudiandae numquam, dolore architecto vel autem mollitia.</p>
+							<a href="">Details...</a>
+						</div>
+						<div class="col-xl-3 col-6 pb-4 pb-md-0">
+							<h3 class="text-capitalize">online shop</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fugit, magni mollitia debitis veniam natus ipsum ullam, harum ducimus illum eos odio.</p>
+							<a href=""><button type="button" class="btn d-flex ml-auto button__details">Details</button></a>
+						</div>
+						<div class="col-xl-3 col-6">
+							<h3 class="text-capitalize">social media</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quae, est recusandae quod unde quia hic corporis. Ipsa sint harum molestiae rerum. <a href="">>>></a></p>
 
-            </div>
-        </div>
-    </section>
-    <section id="section4">
-        <div class="container-xl">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 text-center">
-                    <h2 class="text-uppercase">what we offer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, doloribus, aliquid itaque sequi error quia consequatur voluptatibus soluta accusantium voluptate modi nihil vitae sint numquam! Dolor a, natus accusamus vero harum corporis quidem, quis fugiat.</p>
-                </div>
-            </div>
-            <div class="row justify-content-around">
-                <div class="col-10">
-                    <div class="row">
-                        <div class="col-xl-3 col-6  mb-md-4 pb-4 pb-md-0">
-                            <h3 class="text-capitalize">Web Design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor culpa, illo explicabo iusto quis necessitatibus quod sint modi quas dicta, nesciunt veritatis!</p>
-                            <a href=""><button type="button" class="btn d-flex ml-auto button__details">Details</button></a>
-                        </div>
-                        <div class="col-xl-3 col-6 mb-md-4 pb-4 pb-md-0">
-                            <h3 class="text-capitalize">Search Optimization</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda aspernatur tempore eaque laborum, dicta repudiandae numquam, dolore architecto vel autem mollitia.</p>
-                            <a href="">Details...</a>
-                        </div>
-                        <div class="col-xl-3 col-6 pb-4 pb-md-0">
-                            <h3 class="text-capitalize">online shop</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fugit, magni mollitia debitis veniam natus ipsum ullam, harum ducimus illum eos odio.</p>
-                            <a href=""><button type="button" class="btn d-flex ml-auto button__details">Details</button></a>
-                        </div>
-                        <div class="col-xl-3 col-6">
-                            <h3 class="text-capitalize">social media</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quae, est recusandae quod unde quia hic corporis. Ipsa sint harum molestiae rerum. <a href="">>>></a></p>
+						</div>
+					</div>
+				</div>
 
-                        </div>
-                    </div>
-                </div>
+			</div>
+		</div>
+	</section>
+	<section id="section5">
+		<div class="container-xl">
+			<div class="row justify-content-center">
+				<div class="col-xl-8 text-center">
+					<h2 class="text-uppercase">testimonials</h2>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, fuga qui earum, natus nesciunt neque."</p>
+					<h4> <span>John Doe </span>/ CEO of LoremIpsum</h4>
+					<img src="img/comments.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="container-xl">
+			<div class="row justify-content-center">
+				<div class="col-xl-10 col-12">
+					<div class="row">
+						<div class="col-xl-3 col-md-3 col-6">
+							<h3 class="text-uppercase">twitter feeds</h3>
+							<div class="bot__border">
+								<p>Lorem ipsum dolor sit amet, consectetur.</p>
+								<a href="">http://razdva.com</a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
 
-            </div>
-        </div>
-    </section>
-    <section id="section5">
-        <div class="container-xl">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 text-center">
-                    <h2 class="text-uppercase">testimonials</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, fuga qui earum, natus nesciunt neque."</p>
-                    <h4> <span>John Doe </span>/ CEO of LoremIpsum</h4>
-                    <img src="img/comments.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="footer">
-        <div class="container-xl">
-            <div class="row justify-content-center">
-                <div class="col-xl-10 col-12">
-                    <div class="row">
-                        <div class="col-xl-3 col-md-3 col-6">
-                            <h3 class="text-uppercase">twitter feeds</h3>
-                            <div class="bot__border">
-                                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                <a href="">http://razdva.com</a>
-                                <p>Lorem ipsum dolor.</p>
-                            </div>
+							<div class="bot__border">
+								<p>Lorem ipsum dolor sit amet, consectetur.</p>
+								<a href="">http://razdva.com</a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div>
+								<p>Lorem ipsum dolor sit amet, consectetur.</p>
+								<a href="">http://razdva.com</a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-3 col-6 pr-xl-5">
+							<h3 class="text-uppercase">newsletter</h3>
+							<div></div>
+							<p class="bot__border">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, voluptas? Autem aspernatur, quam vitae commodi fuga, cum!</p>
+							<form>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Your Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
-                            <div class="bot__border">
-                                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                <a href="">http://razdva.com</a>
-                                <p>Lorem ipsum dolor.</p>
-                            </div>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                <a href="">http://razdva.com</a>
-                                <p>Lorem ipsum dolor.</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-3 col-6 pr-xl-5">
-                            <h3 class="text-uppercase">newsletter</h3>
-                            <div></div>
-                            <p class="bot__border">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, voluptas? Autem aspernatur, quam vitae commodi fuga, cum!</p>
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Your Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+								</div>
+								<button type="submit" class="btn text-wrap button__details d-flex ml-auto">Sign Up</button>
+							</form>
+						</div>
+						<div class="col-xl-3 col-md-3 col-6 py-5 py-md-0">
+							<h3 class="text-uppercase">recent projects</h3>
+							<div class="row bot__border">
+								<div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
+								<div class="col-xl-8 col-md-7 col-7 pl-1">
+									<p>Sketchy Business Card</p>
+									<a href="">http://razdva.com</a>
+									<p>2 weeks ago</p>
+								</div>
+							</div>
+							<div class="row bot__border">
+								<div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
+								<div class="col-xl-8 col-md-7 col-7 pl-1">
+									<p>Message Boards in Nature</p>
+									<a href="">http://razdva.com</a>
+									<p>2 weeks ago</p>
+								</div>
+							</div>
+							<div class="row ">
+								<div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
+								<div class="col-xl-8 col-md-7 col-7 pl-1">
+									<p>Website Design Kit</p>
+									<a href="">http://razdva.com</a>
+									<p>2 weeks ago</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-2 col-md-3 col-6 py-5 py-md-0">
+							<h3 class="text-uppercase">contact</h3>
+							<div class="row pb-5">
+								<div class="col-3  text-center"><img src="img/phone.png" alt="image_alttext"></div>
+								<div class="col-9">
+									<p style="margin-right: -15px">1-000-000-000</p>
+									<p>1-000-000-000</p>
+								</div>
+							</div>
+							<div class="row pb-5">
+								<div class="col-3 text-center"><img src="img/sm.png" alt="image_alttext"></div>
+								<div class="col-9">
+									<p>1-000-000-000</p>
+									<p>1-000-000-000</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-3 text-center"><img src="img/mail.png" alt="image_alttext"></div>
+								<div class="col-9">
+									<a href="">asdf@mail.com</a>
+									<a href="">adfqw@asdf.ua</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                                </div>
-                                <button type="submit" class="btn text-wrap button__details d-flex ml-auto">Sign Up</button>
-                            </form>
-                        </div>
-                        <div class="col-xl-3 col-md-3 col-6 py-5 py-md-0">
-                            <h3 class="text-uppercase">recent projects</h3>
-                            <div class="row bot__border">
-                                <div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
-                                <div class="col-xl-8 col-md-7 col-7 pl-1">
-                                    <p>Sketchy Business Card</p>
-                                    <a href="">http://razdva.com</a>
-                                    <p>2 weeks ago</p>
-                                </div>
-                            </div>
-                            <div class="row bot__border">
-                                <div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
-                                <div class="col-xl-8 col-md-7 col-7 pl-1">
-                                    <p>Message Boards in Nature</p>
-                                    <a href="">http://razdva.com</a>
-                                    <p>2 weeks ago</p>
-                                </div>
-                            </div>
-                            <div class="row ">
-                                <div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
-                                <div class="col-xl-8 col-md-7 col-7 pl-1">
-                                    <p>Website Design Kit</p>
-                                    <a href="">http://razdva.com</a>
-                                    <p>2 weeks ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-md-3 col-6 py-5 py-md-0">
-                            <h3 class="text-uppercase">contact</h3>
-                            <div class="row pb-5">
-                                <div class="col-3  text-center"><img src="img/phone.png" alt="image_alttext"></div>
-                                <div class="col-9">
-                                    <p style="margin-right: -15px">1-000-000-000</p>
-                                    <p>1-000-000-000</p>
-                                </div>
-                            </div>
-                            <div class="row pb-5">
-                                <div class="col-3 text-center"><img src="img/sm.png" alt="image_alttext"></div>
-                                <div class="col-9">
-                                    <p>1-000-000-000</p>
-                                    <p>1-000-000-000</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-3 text-center"><img src="img/mail.png" alt="image_alttext"></div>
-                                <div class="col-9">
-                                    <a href="">asdf@mail.com</a>
-                                    <a href="">adfqw@asdf.ua</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-
-
+			</div>
+		</div>
+	</footer>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body></html>
+
+
+	<!-- Optional JavaScript -->
+	<script src="main.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

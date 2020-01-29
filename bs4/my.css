@@ -279,7 +279,9 @@ div > label {
 }
 
 .nav {
-    height: 80px;
+    padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 0;
 }
 
 nav a {
@@ -311,9 +313,7 @@ nav a {
     font-size: 2rem
 }
 
-.nav {
-    padding: 0;
-}
+
 
 .wrapper {
     width: 285px;
@@ -325,4 +325,8 @@ nav a {
 
 #section2 {
     background-color: #f4f4f4;
+}
+
+ul {
+	padding-left: 0;
 }
