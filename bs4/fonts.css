@@ -1,9 +1,9 @@
-#section1 h2,
+.section1 h2,
 .service,
 #section4 h2,
 #section5 h2,
 footer h3 {
-    font-family: 'Bebas Neue', cursive;
+	font-family: 'Bebas Neue', cursive;
 }
 
 
@@ -13,13 +13,13 @@ nav,
 #section4,
 #section5 h4,
 footer {
-    font-family: 'Ubuntu',
-        sans-serif;
+	font-family: 'Ubuntu',
+		sans-serif;
 }
 
 #section1 input {
-    font-family: 'Ubuntu Condensed',
-        sans-serif;
+	font-family: 'Ubuntu Condensed',
+		sans-serif;
 }
 
 .navbar-brand,
@@ -27,6 +27,6 @@ footer {
 #section3,
 #section4 h3,
 #section5 p {
-    font-family: 'Bree Serif',
-        serif;
+	font-family: 'Bree Serif',
+		serif;
 }
