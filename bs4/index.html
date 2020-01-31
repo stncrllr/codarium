@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Bree+Serif|Ubuntu|Ubuntu+Condensed&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="fonts.css">
-	<link rel="stylesheet" href="my.css">
+	<!--	<link rel="stylesheet" href="my.css">-->
+	<link rel="stylesheet" href="bem.css">
 
 	<title>Good design</title>
 </head>
@@ -26,16 +27,16 @@
 			<div class="col-xl-6 col-md-7 d-none d-md-block" id="burger">
 				<ul class="nav d-flex flex-column flex-md-row align-items-stretch justify-content- justify-content-md-around" id="ul">
 					<li class="nav-item d-flex">
-						<a class="nav-link my-auto" href="#section1">Home</a>
+						<a class="nav-link my-auto" href="index.html">Home</a>
 					</li>
 					<li class="nav-item d-flex">
-						<a class="nav-link my-auto" href="#section3">Portfolio</a>
+						<a class="nav-link my-auto" href="portfolio.html">Portfolio</a>
 					</li>
 					<li class="nav-item d-flex">
-						<a class="nav-link my-auto" href="#section4">About</a>
+						<a class="nav-link my-auto" href="about.html">About</a>
 					</li>
 					<li class="nav-item d-flex">
-						<a class="nav-link my-auto" href="#footer">Contact</a>
+						<a class="nav-link my-auto" href="contact.html">Contact</a>
 					</li>
 					<li class="nav-item d-flex align-items-center text-center">
 						<a class="nav-link blog my-auto" href="#">Blog</a>
@@ -49,48 +50,48 @@
 			</div>
 		</div>
 	</nav>
-	<section id="section1" class="section1">
+	<section id="section1" class="section section--bgtown">
 		<div class="container-xl">
 			<div class="row justify-content-center">
 				<div class="col-xl-7 col-12 col-md-10 text-center">
-					<h2 class="text-uppercase">good design is good business</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor veritatis dolorem magnam nihil, qui reprehenderit minima, cumque. Eum tempora libero ipsum molestiae itaque omnis modi.</p>
-					<a href="#section2"><input type="submit" value="Learn More" class="text-uppercase btn"></a>
+					<h2 class="text-uppercase section__h2">good design is good business</h2>
+					<p class="section__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor veritatis dolorem magnam nihil, qui reprehenderit minima, cumque. Eum tempora libero ipsum molestiae itaque omnis modi.</p>
+					<a href="#section2"><input type="submit" value="Learn More" class="text-uppercase btn section__input"></a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="section2">
+	<section id="section2" class="section section--bglight">
 		<div class="container-xl">
 			<div class="row">
 				<div class="col-12 text-center">
-					<div class="service mx-auto">
+					<div class="section__btn mx-auto">
 						<span>our service</span>
 					</div>
 				</div>
 			</div>
 			<div class="row sec2div justify-content-center">
 				<div class="col-xl-10 col-12">
-					<div class="row justify-content-between">
+					<div class="row justify-content-between services">
 						<div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
 							<img src="img/webdesign.png" alt="">
-							<h2>Web Design</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui neque, facilis repudiandae dolore, aliquid culpa consequatur fuga reprehenderit aut autem.<a href="">Details...</a></p>
+							<h2 class="services__h2">Web Design</h2>
+							<p class="services__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui neque, facilis repudiandae dolore, aliquid culpa consequatur fuga reprehenderit aut autem.<a href="">Details...</a></p>
 						</div>
 						<div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
 							<img src="img/search.png" alt="">
-							<h2>Search Optimization</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptatum cupiditate hic ab reiciendis iusto at, odio alias illo possimus.<a href="">Details...</a></p>
+							<h2 class="services__h2">Search Optimization</h2>
+							<p class="services__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptatum cupiditate hic ab reiciendis iusto at, odio alias illo possimus.<a href="">Details...</a></p>
 						</div>
 						<div class="col-xl-3 col-md-3 px-xl-5  col-6 text-center">
 							<img src="img/shop.png" alt="">
-							<h2>Online Shop</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore autem id .<a href="">Details...</a></p>
+							<h2 class="services__h2">Online Shop</h2>
+							<p class="services__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolore autem id .<a href="">Details...</a></p>
 						</div>
 						<div class="col-xl-3 col-md-3 px-xl-5 col-6 text-center">
 							<img src="img/social.png" alt="">
-							<h2>Social Media</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi consequatur placeat minus doloribus modi molestias eligendi! Voluptas esse autem, laboriosam.<a href="">Details...</a></p>
+							<h2 class="services__h2">Social Media</h2>
+							<p class="services__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi consequatur placeat minus doloribus modi molestias eligendi! Voluptas esse autem, laboriosam.<a href="">Details...</a></p>
 						</div>
 					</div>
 				</div>
@@ -98,83 +99,79 @@
 			</div>
 		</div>
 	</section>
-	<section id="section3">
+	<section id="section3" class="section section--bgdark">
 		<div class="container-xl">
 			<div class="row justify-content-center">
 				<div class="col-xl-10 col-12">
 					<div class="row">
 						<div class="col-xl-12 d-flex text-wrap">
-							<h2 class="text-capitalize d-inline">Our portfolio awesome</h2>
-							<button id="moreworks" class="button__details btn text-capitalize ml-auto my-3">more works</button>
+							<h2 class="text-capitalize d-inline section__h2 h2--dark">Our portfolio awesome</h2>
+							<a class="d-block ml-auto" href=""><button id="moreworks" class="button btn text-capitalize my-3">more works</button></a>
 						</div>
 					</div>
 				</div>
-
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-xl-10 col-12">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="wrapper mr-lg-auto mx-auto mx-lg-0">
-								<div class="camera text-center"></div>
-								<h3>Lorem ipsum dolor.</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est cum nulla fugit optio saepe, ipsam tempora fugiat dicta sed accusamus.</p>
+								<div class="img-block img-block--camera text-center"></div>
+								<h3 class="section__h3 h3--dark">Lorem ipsum dolor.</h3>
+								<p class="section__p p--dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est cum nulla fugit optio saepe, ipsam tempora fugiat dicta sed accusamus.</p>
 							</div>
 
 						</div>
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="wrapper mx-auto">
-								<div class="camera text-center"></div>
-								<h3>Lorem ipsum dolor sit.</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis fugit aut qui eius cupiditate quod optio aperiam doloremque consequuntur!</p>
+								<div class="img-block img-block--camera text-center"></div>
+								<h3 class="section__h3 h3--dark">Lorem ipsum dolor sit.</h3>
+								<p class="section__p p--dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis fugit aut qui eius cupiditate quod optio aperiam doloremque consequuntur!</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-12">
 							<div class="wrapper mr-lg-auto mx-auto mx-lg-0">
-								<div class="eye text-center d-flex align-items-center justify-content-center">
-									<div class="eye-button"><a href=""><img src="img/eye.png" alt="">Details</a></div>
+								<div class="img-block  text-center d-flex align-items-center justify-content-center">
+									<div class="img-block__button"><a href=""><img src="img/eye.png" alt="">Details</a></div>
 								</div>
 							</div>
-							<h3>Lorem ipsum.</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam omnis voluptatem ea vero nostrum possimus sunt impedit laborum in.</p>
+							<h3 class="section__h3 h3--dark">Lorem ipsum.</h3>
+							<p class="section__p p--dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam omnis voluptatem ea vero nostrum possimus sunt impedit laborum in.</p>
 						</div>
-
 					</div>
 				</div>
 			</div>
-
-		</div>
 		</div>
 	</section>
-	<section id="section4">
+	<section id="section4" class="section section--bglight">
 		<div class="container-xl">
 			<div class="row justify-content-center">
 				<div class="col-xl-8 text-center">
-					<h2 class="text-uppercase">what we offer</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, doloribus, aliquid itaque sequi error quia consequatur voluptatibus soluta accusantium voluptate modi nihil vitae sint numquam! Dolor a, natus accusamus vero harum corporis quidem, quis fugiat.</p>
+					<h2 class="text-uppercase section__h2 h2--light">what we offer</h2>
+					<p class="section_p p--light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, doloribus, aliquid itaque sequi error quia consequatur voluptatibus soluta accusantium voluptate modi nihil vitae sint numquam! Dolor a, natus accusamus vero harum corporis quidem, quis fugiat.</p>
 				</div>
 			</div>
 			<div class="row justify-content-around">
 				<div class="col-10">
 					<div class="row">
 						<div class="col-xl-3 col-6  mb-md-4 pb-4 pb-md-0">
-							<h3 class="text-capitalize">Web Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor culpa, illo explicabo iusto quis necessitatibus quod sint modi quas dicta, nesciunt veritatis!</p>
-							<a href=""><button type="button" class="btn d-flex ml-auto button__details">Details</button></a>
+							<h3 class="text-capitalize section__h3 h3--light">Web Design</h3>
+							<p class="p--light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor culpa, illo explicabo iusto quis necessitatibus quod sint modi quas dicta, nesciunt veritatis!</p>
+							<a href=""><button type="button" class="btn button d-flex ml-auto button__details">Details</button></a>
 						</div>
 						<div class="col-xl-3 col-6 mb-md-4 pb-4 pb-md-0">
-							<h3 class="text-capitalize">Search Optimization</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda aspernatur tempore eaque laborum, dicta repudiandae numquam, dolore architecto vel autem mollitia.</p>
-							<a href="">Details...</a>
+							<h3 class="text-capitalize section__h3 h3--light">Search Optimization</h3>
+							<p class="p--light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda aspernatur tempore eaque laborum, dicta repudiandae numquam, dolore architecto vel autem mollitia.</p>
+							<a class="section__link" href="">Details...</a>
 						</div>
 						<div class="col-xl-3 col-6 pb-4 pb-md-0">
-							<h3 class="text-capitalize">online shop</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fugit, magni mollitia debitis veniam natus ipsum ullam, harum ducimus illum eos odio.</p>
-							<a href=""><button type="button" class="btn d-flex ml-auto button__details">Details</button></a>
+							<h3 class="text-capitalize section__h3 h3--light">online shop</h3>
+							<p class="p--light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus fugit, magni mollitia debitis veniam natus ipsum ullam, harum ducimus illum eos odio.</p>
+							<a href=""><button type="button" class="button btn d-flex ml-auto button__details">Details</button></a>
 						</div>
 						<div class="col-xl-3 col-6">
-							<h3 class="text-capitalize">social media</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quae, est recusandae quod unde quia hic corporis. Ipsa sint harum molestiae rerum. <a href="">>>></a></p>
+							<h3 class="text-capitalize section__h3 h3--light">social media</h3>
+							<p class="p--light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quae, est recusandae quod unde quia hic corporis. Ipsa sint harum molestiae rerum. <a href="">>>></a></p>
 
 						</div>
 					</div>
@@ -183,103 +180,103 @@
 			</div>
 		</div>
 	</section>
-	<section id="section5">
+	<section id="section5" class="section section--bglight">
 		<div class="container-xl">
 			<div class="row justify-content-center">
 				<div class="col-xl-8 text-center">
-					<h2 class="text-uppercase">testimonials</h2>
-					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, fuga qui earum, natus nesciunt neque."</p>
-					<h4> <span>John Doe </span>/ CEO of LoremIpsum</h4>
+					<h2 class="text-uppercase section__h2 h2--light">testimonials</h2>
+					<p class="section__p p--light p--big-font">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, fuga qui earum, natus nesciunt neque."</p>
+					<h4 class="section__h4 h4--dark"> <span class="h4__text">John Doe </span>/ CEO of LoremIpsum</h4>
 					<img src="img/comments.png" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer id="footer">
+	<footer id="footer" class="footer section--bgdark">
 		<div class="container-xl">
 			<div class="row justify-content-center">
 				<div class="col-xl-10 col-12">
 					<div class="row">
 						<div class="col-xl-3 col-md-3 col-6">
-							<h3 class="text-uppercase">twitter feeds</h3>
+							<h3 class="text-uppercase footer__h3 h3--dark">twitter feeds</h3>
 							<div class="bot__border">
-								<p>Lorem ipsum dolor sit amet, consectetur.</p>
-								<a href="">http://razdva.com</a>
-								<p>Lorem ipsum dolor.</p>
+								<p class="footer__p p--dark">Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="footer__link" href="">http://razdva.com</a>
+								<p class="footer__p p--dark">Lorem ipsum dolor.</p>
 							</div>
 
 							<div class="bot__border">
-								<p>Lorem ipsum dolor sit amet, consectetur.</p>
-								<a href="">http://razdva.com</a>
-								<p>Lorem ipsum dolor.</p>
+								<p class="footer__p p--dark">Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="footer__link" href="">http://razdva.com</a>
+								<p class="footer__p p--dark">Lorem ipsum dolor.</p>
 							</div>
 							<div>
-								<p>Lorem ipsum dolor sit amet, consectetur.</p>
-								<a href="">http://razdva.com</a>
-								<p>Lorem ipsum dolor.</p>
+								<p class="footer__p p--dark">Lorem ipsum dolor sit amet, consectetur.</p>
+								<a class="footer__link" href="">http://razdva.com</a>
+								<p class="footer__p p--dark">Lorem ipsum dolor.</p>
 							</div>
 						</div>
 						<div class="col-xl-4 col-md-3 col-6 pr-xl-5">
-							<h3 class="text-uppercase">newsletter</h3>
+							<h3 class="text-uppercase footer__h3 h3--dark">newsletter</h3>
 							<div></div>
-							<p class="bot__border">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, voluptas? Autem aspernatur, quam vitae commodi fuga, cum!</p>
+							<p class="bot__border p--dark footer__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, voluptas? Autem aspernatur, quam vitae commodi fuga, cum!</p>
 							<form>
 								<div class="form-group">
-									<label for="exampleInputEmail1">Your Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									<label class="form__label" for="exampleInputEmail1">Your Email address</label>
+									<input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
 
 								</div>
-								<button type="submit" class="btn text-wrap button__details d-flex ml-auto">Sign Up</button>
+								<button type="submit" class="btn button text-wrap button__details d-flex ml-auto">Sign Up</button>
 							</form>
 						</div>
 						<div class="col-xl-3 col-md-3 col-6 py-5 py-md-0">
-							<h3 class="text-uppercase">recent projects</h3>
+							<h3 class="text-uppercase footer__h3 h3--dark">recent projects</h3>
 							<div class="row bot__border">
 								<div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
 								<div class="col-xl-8 col-md-7 col-7 pl-1">
-									<p>Sketchy Business Card</p>
-									<a href="">http://razdva.com</a>
-									<p>2 weeks ago</p>
+									<p class="footer__p p--dark">Sketchy Business Card</p>
+									<a class="footer__link" href="">http://razdva.com</a>
+									<p class="footer__p p--dark">2 weeks ago</p>
 								</div>
 							</div>
 							<div class="row bot__border">
 								<div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
 								<div class="col-xl-8 col-md-7 col-7 pl-1">
-									<p>Message Boards in Nature</p>
-									<a href="">http://razdva.com</a>
-									<p>2 weeks ago</p>
+									<p class="footer__p p--dark">Message Boards in Nature</p>
+									<a class="footer__link" href="">http://razdva.com</a>
+									<p class="footer__p p--dark">2 weeks ago</p>
 								</div>
 							</div>
 							<div class="row ">
 								<div class="col-xl-4 col-md-5 col-5 pr-1"><img class="img-fluid" src="img/Rectangle.svg" alt="image_alttext"></div>
 								<div class="col-xl-8 col-md-7 col-7 pl-1">
-									<p>Website Design Kit</p>
-									<a href="">http://razdva.com</a>
-									<p>2 weeks ago</p>
+									<p class="footer__p p--dark">Website Design Kit</p>
+									<a class="footer__link" href="">http://razdva.com</a>
+									<p class="footer__p p--dark">2 weeks ago</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-xl-2 col-md-3 col-6 py-5 py-md-0">
-							<h3 class="text-uppercase">contact</h3>
+							<h3 class="text-uppercase footer__h3 h3--dark">contact</h3>
 							<div class="row pb-5">
 								<div class="col-3  text-center"><img src="img/phone.png" alt="image_alttext"></div>
 								<div class="col-9">
-									<p style="margin-right: -15px">1-000-000-000</p>
-									<p>1-000-000-000</p>
+									<p class="footer__p p--dark" style="margin-right: -15px">1-000-000-000</p>
+									<p class="footer__p p--dark">1-000-000-000</p>
 								</div>
 							</div>
 							<div class="row pb-5">
 								<div class="col-3 text-center"><img src="img/sm.png" alt="image_alttext"></div>
 								<div class="col-9">
-									<p>1-000-000-000</p>
-									<p>1-000-000-000</p>
+									<p class="footer__p p--dark">1-000-000-000</p>
+									<p class="footer__p p--dark">1-000-000-000</p>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-3 text-center"><img src="img/mail.png" alt="image_alttext"></div>
 								<div class="col-9">
-									<a href="">asdf@mail.com</a>
-									<a href="">adfqw@asdf.ua</a>
+									<a class="footer__link" href="">asdf@mail.com</a>
+									<a class="footer__link" href="">adfqw@asdf.ua</a>
 								</div>
 							</div>
 						</div>

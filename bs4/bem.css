@@ -1,0 +1,201 @@
+html {
+	font-size: 10px;
+}
+
+.section--bglight {
+	background-color: #f4f4f4;
+}
+
+.section--bgdark {
+	background-color: #2e3e4f;
+}
+
+.section--bgtown {
+	background-image: url(img/town.png);
+	height: 29.5rem;
+}
+
+.section__h2 {
+	color: #cccece;
+	font-size: 6rem;
+}
+
+.section__p {
+	color: #cccece;
+	font-size: 1.4rem;
+}
+
+.section__input {
+	background-color: #f98561;
+	color: #ffebca;
+	font-size: 2.5rem;
+	width: 24.3rem;
+	height: 5.1rem;
+	border-radius: 0.5rem;
+	margin-top: 4.6rem;
+	margin-bottom: 18.5rem;
+}
+
+.section__btn {
+	color: #fff;
+	background-color: #2190c1;
+	font-size: 2.2rem;
+	width: 14.3rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-radius: 0.5rem;
+	margin-top: -1.75rem;
+	z-index: 100;
+}
+
+.services {
+	color: #515862;
+}
+
+.services__h2 {
+	font-size: 1.7rem;
+	padding-top: 2.7rem;
+}
+
+.services__p {
+	font-size: 1.1rem
+}
+
+.button {
+	background-color: #2190c1;
+	width: auto;
+	height: 25px;
+	color: #fff;
+	font-size: 1.17rem;
+	border-radius: 0.4rem;
+	box-shadow: 0px 3px 2px 0px #025568;
+}
+
+.button:hover {
+	background-color: #12a3d6;
+	color: #fff;
+	box-shadow: 0px 3px 2px 0px #025568;
+}
+
+.button:focus {
+	background-color: #12a3d6;
+}
+
+.button:active {
+	background-color: #12a3d6;
+	color: #fff;
+	box-shadow: 0px -3px 2px 0px #025568;
+}
+
+.h2--dark {
+	font-size: 3rem;
+	color: #f98561;
+}
+
+.h3--dark {
+	font-size: 1.7rem;
+	color: #f98561;
+	padding-top: 2rem;
+}
+
+.p--dark {
+	font-size: 1.1rem;
+	color: #a3afb2;
+}
+
+.img-block {
+	background-color: #bebebe;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: white 10px solid;
+	height: 220px;
+	width: 285px;
+}
+
+.img-block--camera {
+	background-image: url(img/camera.png);
+}
+
+.img-block__button {
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding-right: 2.2rem;
+	padding-left: 2.2rem;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+}
+
+.p--light {
+	color: #515862;
+	font-size: 1.2rem;
+}
+
+.h3--light {
+	color: #2b99cc;
+	font-size: 1.7rem;
+}
+
+.h2--light {
+	color: #2190c1;
+	font-size: 4rem
+}
+
+.section__link {
+	color: #2190c1;
+	font-size: 1.4rem;
+	font-family: bree serif;
+	text-decoration: none;
+}
+
+.h4--dark {
+	color: #f98561;
+}
+
+.h4__text {
+	font-weight: 800
+}
+
+.p--big-font {
+	font-size: 2.5rem;
+
+}
+
+.h3--dark {
+	font-size: 3rem;
+	color: #f98561;
+	line-height: 2.6rem;
+}
+
+.bot__border {
+	padding-bottom: 1rem;
+}
+
+.bot__border::after {
+	content: "";
+	/* This is necessary for the pseudo element to work. */
+	display: block;
+	/* This will put the pseudo element on its own line. */
+	margin: 0 auto;
+	/* This will center the border. */
+	width: 100%;
+	/* Change this to whatever width you want. */
+	margin-top: 10px;
+	/* This creates some space between the element and the border. */
+	border-bottom: 1px solid grey;
+	/* This creates the border. Replace black with whatever color you want. */
+}
+
+.footer__p {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.footer__link {
+	font-size: 1.2rem;
+	color: #2190c1
+}
+
+.form__label {
+	color: #2190c1;
+	font-size: 1.3rem;
+}

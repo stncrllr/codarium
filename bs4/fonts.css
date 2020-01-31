@@ -1,5 +1,5 @@
-.section1 h2,
-.service,
+.section__h2,
+.section__btn,
 #section4 h2,
 #section5 h2,
 footer h3 {
@@ -7,6 +7,7 @@ footer h3 {
 }
 
 
+.section__p,
 nav,
 #section1 p,
 #section3 p,
@@ -17,13 +18,13 @@ footer {
 		sans-serif;
 }
 
-#section1 input {
+.section__input {
 	font-family: 'Ubuntu Condensed',
 		sans-serif;
 }
 
 .navbar-brand,
-#section2,
+.services,
 #section3,
 #section4 h3,
 #section5 p {
