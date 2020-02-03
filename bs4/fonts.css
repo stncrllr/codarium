@@ -1,19 +1,12 @@
-.section__h2,
-.section__btn,
-#section4 h2,
-#section5 h2,
-footer h3 {
+.font-bebas-neue {
 	font-family: 'Bebas Neue', cursive;
 }
 
+.font-bebas {
+	font-family: 'Bebas';
+}
 
-.section__p,
-nav,
-#section1 p,
-#section3 p,
-#section4,
-#section5 h4,
-footer {
+.font-ubuntu {
 	font-family: 'Ubuntu',
 		sans-serif;
 }
@@ -23,11 +16,7 @@ footer {
 		sans-serif;
 }
 
-.navbar-brand,
-.services,
-#section3,
-#section4 h3,
-#section5 p {
+.bree-serif {
 	font-family: 'Bree Serif',
 		serif;
 }
