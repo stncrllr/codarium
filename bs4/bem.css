@@ -12,9 +12,31 @@ html {
 
 .section--bgtown {
 	background-image: url(img/town.png);
-	height: 29.5rem;
+	/*	height: 29.5rem;*/
 
 	background-position: 100% 77%;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	color: #515862;
+}
+
+.ul__item:hover {
+
+	background-color: #12a3d6;
+	background-image: url(img/nav.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+
+}
+
+
+
+.ul__item:hover .ul__link {
+	color: #c5f4ff;
+	text-decoration: none
 }
 
 .section__h2 {
@@ -209,6 +231,8 @@ html {
 .section__h1 {
 	color: #cccece;
 	font-size: 6rem;
+	padding-top: calc((295px - 95px - 2*3rem) / 2);
+	padding-bottom: calc((295px - 95px - 2*3rem)/2 - 5px)
 }
 
 .footer__h3 {
@@ -303,6 +327,71 @@ html {
 .benefits--border {
 	border-left: 1px solid #c0c0c0;
 }
+
 .benefits--border-right {
 	border-right: 1px solid #c0c0c0;
+}
+
+.ul__link {
+	font-size: 1.4rem;
+	color: #515862;
+}
+
+.nav__form {
+	font-size: 1.2rem;
+	color: #515862;
+}
+
+.form__a {
+	color: #515862;
+}
+
+.nav__ul {
+	margin: 0;
+}
+
+.nav-bar {}
+
+
+.home__h1 {
+	color: #cccece;
+	font-size: 6rem;
+	padding-top: 10rem;
+	padding-bottom: 2rem;
+}
+
+.section {
+	padding: 3rem 0 3rem 0;
+}
+
+.home--bgtown {
+	background-image: url(img/town.png);
+	background-size: cover
+}
+
+.ul__item,
+.ul__blog {
+	padding-top: 2rem;
+	padding-bottom: 2rem
+}
+
+.ul {
+	margin: 0;
+}
+
+.li--burger {
+	padding-top: 1rem;
+	padding-bottom: 1rem
+}
+
+.blog {
+	background-color: #f98561;
+	border-radius: 0.5rem;
+	width: 65px;
+	color: white;
+}
+
+.blog:hover {
+	text-decoration: none;
+	color: black
 }
