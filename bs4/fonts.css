@@ -11,7 +11,7 @@
 		sans-serif;
 }
 
-.section__input {
+.section__input, .font-condensed {
 	font-family: 'Ubuntu Condensed',
 		sans-serif;
 }

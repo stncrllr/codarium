@@ -10,6 +10,12 @@ html {
 	background-color: #2e3e4f;
 }
 
+.home--bgtown {
+	background-image: url(img/town.png);
+	background-size: cover;
+	margin-top: -2px
+}
+
 .section--bgtown {
 	background-image: url(img/town.png);
 	/*	height: 29.5rem;*/
@@ -29,6 +35,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom center;
+
 
 }
 
@@ -312,7 +319,7 @@ html {
 
 
 .section__h4 {
-	font-size: 3.26rem;
+	font-size: 1.4rem;
 }
 
 .h4--blue {
@@ -364,10 +371,7 @@ html {
 	padding: 3rem 0 3rem 0;
 }
 
-.home--bgtown {
-	background-image: url(img/town.png);
-	background-size: cover
-}
+
 
 .ul__item,
 .ul__blog {
@@ -394,4 +398,37 @@ html {
 .blog:hover {
 	text-decoration: none;
 	color: black
+}
+
+.portfolio__nav {
+
+}
+
+.nav__li {
+	display: inline-block;
+}
+
+.dropdown-menu {
+	background-color: #f98561;
+	font-size: 1rem;
+}
+
+.nav-pills .nav-link.active {
+	background-color: #2e3e4f00;
+	color: #12a3d6;
+}
+
+.nav-link{
+	color:#515862
+}
+
+.nav {
+	font-size: 1.3rem;
+
+}
+
+
+
+.wrapper {
+	width: 285px;
 }
