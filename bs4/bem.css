@@ -29,16 +29,19 @@ html {
 }
 
 .ul__item:hover {
-
 	background-color: #12a3d6;
-	background-image: url(img/nav.svg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: bottom center;
-
-
+	border-bottom:solid 8px #0080b7;
 }
 
+.ul__item:hover::before{
+	content: "";
+	position: absolute;
+	left: calc(50% -8px);
+	bottom: 0px;
+	border: 7px solid transparent;
+	border-bottom: 7px solid #0080b7;
+
+}
 
 
 .ul__item:hover .ul__link {
@@ -376,7 +379,9 @@ html {
 .ul__item,
 .ul__blog {
 	padding-top: 2rem;
-	padding-bottom: 2rem
+	padding-bottom: 1.2rem;
+	border-bottom:solid 8px #f4f4f4;
+	position: relative;
 }
 
 .ul {
@@ -458,6 +463,53 @@ html {
 	z-index: 100;
 	padding: 0;
 }
+
+.navtabs{
+	display: inline-block;
+	position: relative;
+	margin-left: calc((100% - 62px * 3)/2);
+	z-index: 100;
+	padding: 0;
+}
+
+.navtabs li{
+	height: 60px;
+	width: 60px;
+	display: block;
+	float: left;
+	margin: 2px;
+	background-color: #adadad;
+	border-radius: 50%;
+	background-image: url(img/com_wom.png);
+	background-size: contain
+}
+.navtabs li div{
+	width: 60px;
+	height: 6px;
+	margin-left: 2px;
+	margin-right: 2px;
+	background-color: inherit;
+	position: absolute;
+	bottom: -22%;
+}
+
+.navtabs li:hover {
+	background-color: #f98561;
+	}
+
+.navtabs li.tns-nav-active{
+	background-color: #f98561;
+
+}
+
+.navtabs li.tns-nav-active div::before{
+	content: '';
+    position: absolute;
+    left: 22.5px; bottom: 5px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #f98561;
+}
+
 
 .slider-container {
 	position: relative;
