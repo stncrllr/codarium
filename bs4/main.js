@@ -1,7 +1,9 @@
+
+
 function toggle() {
 	var elem = document.getElementById('burger');
-	elem.classList.toggle('d-none');
 	var li = document.getElementsByClassName('ul__item');
+	elem.classList.toggle('d-none');
 	for (var i = 0; i < li.length; i++) {
 		li[i].classList.toggle('li--burger');
 	}
